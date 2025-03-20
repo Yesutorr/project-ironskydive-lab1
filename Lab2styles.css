@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:700|Roboto:100,300,700");
 
 html,
 body {
@@ -6,10 +6,11 @@ body {
   padding: 0;
 }
 body {
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-size: 10px;
-line-height: 3.5em;
-font-weight: 300;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 10px;
+  line-height: 3.5em;
+  font-weight: 300;
 }
 
 h1,
@@ -18,53 +19,127 @@ h3,
 h4,
 h5,
 h6 {
-  font-family:Roboto Condensed;
+  font-family: Roboto Condensed;
 }
 
 h1 {
-    size: 9em;
-    align-items: center;
-    transform: uppercase;
+  font-size: 9em;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 h2 {
-    size: 5em;
-    align-items: center;
-    transform: uppercase;
-    line-height: 4em;
+  font-size: 5em;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 4em;
 }
 
 h3 {
-size: 4.2em;
-align-items: center;
-line-height: 1em;
+  font-size: 4.2em;
+  text-align: center;
+  line-height: 1em;
 }
 
 h4 {
-size: 1.5em;
-letter-spacing: 0.4px;
-line-height: 1em;
+  font-size: 1.5em;
+  letter-spacing: 0.4px;
+  line-height: 1em;
 }
 
 h5 {
-  size: 1.2em;
-  line-height: 1em;  
+  font-size: 1.2em;
+  line-height: 1em;
 }
 
 .nav-bar {
-    background-color: darkblue;
+  background-color: #020819;
 }
 
 .nav-bar a {
-color: white;
-text-decoration: none;
-font-size: 2em;
-  }
+  color: white;
+  text-decoration: none;
+  font-size: 2em;
+}
 
-  .header {
-    background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
-    background-position: 0 0.;
-    background-repeat: no-repeat;
-    background-size: cover;
+.header {
+  background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+}
 
-  }
+h2 {
+  color: white;
+  text-shadow: #020819 8px -20px 9px;
+}
+
+.quote {
+  font-size: 2.5em;
+}
+
+.dark-background {
+  background-color: #020819;
+  color: white;
+}
+
+.text {
+  font-size: 2em;
+  font-weight: 100;
+  text-align: center;
+}
+
+.link-btn {
+  background-color: rgb(67, 163, 230);
+  color: white;
+  font-family: roboto condensed;
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+}
+.service-box {
+  font-size: 1.7em;
+  text-align: center;
+}
+
+.service-box img {
+  height: 125px;
+}
+
+#team .section-text {
+  font-size: 1.9em;
+  text-align: center;
+}
+
+#team .member-text {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+#team img {
+  width: 250px;
+  height: 180px;
+}
+
+.footer {
+  font-size: 1.9em;
+  text-align: center;
+  
+}
+
+.address {
+  font-style: normal;
+  font-size: 0.8em;
+}
+
+.footer a {
+  color: rgb(67, 163, 230);
+  text-decoration: none;
+}
+
+.footer ul {
+  list-style: none;
+}
+
